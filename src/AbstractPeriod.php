@@ -142,6 +142,9 @@ abstract class AbstractPeriod
      */
     public function getDateCopy()
     {
+        if (! $this->date) {
+            $this->date = clone $this->startDate;
+        }
         return clone $this->date;
     }
 
