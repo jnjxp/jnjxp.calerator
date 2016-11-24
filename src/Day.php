@@ -87,6 +87,18 @@ class Day extends AbstractPeriod implements IteratorAggregate
     }
 
     /**
+     * GetDateCopy
+     *
+     * @return DateTime
+     *
+     * @access public
+     */
+    public function getDateCopy()
+    {
+        return clone $this->startDate;
+    }
+
+    /**
      * Is day in month?
      *
      * @return bool
