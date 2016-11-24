@@ -1,0 +1,17 @@
+{
+    "name": "jnjxp/calerator",
+    "description": "Calendar date iterators",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jake johns",
+            "email": "jake@jakejohns.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Jnjxp\\Calerator\\": "src/"
+        }
+    }
+}
