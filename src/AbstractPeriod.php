@@ -156,9 +156,9 @@ abstract class AbstractPeriod
      * @return mixed
      * @throws exceptionclass [description]
      *
-     * @access protected
+     * @access public
      */
-    protected function format($format)
+    public function format($format)
     {
         return $this->startDate->format($format);
     }
